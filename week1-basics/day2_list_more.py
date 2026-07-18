@@ -17,7 +17,6 @@ print(removeDuplicate(ids))
 def readFiles(files1: list) -> set:
     return [f for f in files1 if f.endswith('.csv')]
 print(readFiles(files))
-
 def convertTuple(file1:list) ->tuple:
     return tuple(file1)
 print("this is my tupele...",convertTuple([12,34,"345","abcd"]))
